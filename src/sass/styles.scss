@@ -1,0 +1,39 @@
+$color--primary: #07adea;
+$color--secondary: #544e54;
+$color--background: #f5fafc;
+$color--error: #e06168;
+
+$font-body: "Lato", sans-serif;
+$font-heading: "Raleway", sans-serif;
+
+// bootstrap theme colors
+$theme-colors: (
+  "primary": $color--primary,
+  "secondary": $color--secondary,
+  "dark": $color--secondary,
+);
+
+// colors
+$body-bg: $color--background;
+$input-bg: #fff;
+
+//hamburger menu
+$navbar-dark-toggler-border-color: $color--secondary;
+
+//typography
+$font-family-base: $font-body;
+$headings-font-family: $font-heading;
+$nav-link-font-size: 1.5rem;
+
+//cards
+$card-height: 30rem;
+
+@import "~bootstrap/scss/bootstrap";
+
+// // partials
+
+// @import "./partials/typography";
+// @import "./partials/mainNav";
+// @import "./partials/cards";
+// @import "./partials/messages";
+// @import "./partials/links";
