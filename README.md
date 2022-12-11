@@ -4,7 +4,7 @@
 
 
 ## Description
-Simple webpage showcasing the last three projects I completed at [Noroff](https://www.noroff.no/). You can view the portfolio website [here](https://super-starship-4d8def.netlify.app/).
+Simple webpage showcasing the last three projects I completed at [Noroff](https://www.noroff.no/). You can view the portfolio website [here](https://superb-fairy-60770c.netlify.app/).
 
 
 ## Built With
