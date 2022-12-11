@@ -1,10 +1,9 @@
-$color--primary: #07adea;
-$color--secondary: #544e54;
-$color--background: #f5fafc;
-$color--error: #e06168;
+$color--primary: #05f2db;
+$color--secondary: #d93d04;
+$color--background: #f2f2f2;
 
-$font-body: "Lato", sans-serif;
-$font-heading: "Raleway", sans-serif;
+$font-body: "ivypresto-text", serif;
+$font-heading: "minerva-modern", sans-serif;
 
 // bootstrap theme colors
 $theme-colors: (
@@ -15,10 +14,6 @@ $theme-colors: (
 
 // colors
 $body-bg: $color--background;
-$input-bg: #fff;
-
-//hamburger menu
-$navbar-dark-toggler-border-color: $color--secondary;
 
 //typography
 $font-family-base: $font-body;
@@ -26,13 +21,14 @@ $headings-font-family: $font-heading;
 $nav-link-font-size: 1.5rem;
 
 //cards
-$card-height: 30rem;
+$card-height: 40rem;
 
 @import "~bootstrap/scss/bootstrap";
 
 // // partials
 
-// @import "./partials/typography";
+@import "./partials/layout";
+@import "./partials/buttons";
 // @import "./partials/mainNav";
 // @import "./partials/cards";
 // @import "./partials/messages";

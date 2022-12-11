@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import ActionBtn from "./ActionBtn";
 
@@ -18,10 +17,8 @@ const ProjectThumbnail = ({
         <Card.Title>{title}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">{stack}</Card.Subtitle>
         <Card.Text>{description}</Card.Text>
-        <ActionBtn variant="btn2" myLink={github}>
-          Github
-        </ActionBtn>
-        <ActionBtn myLink={site}>Live website</ActionBtn>
+        <ActionBtn variant="btn2" myLink={github} text="Github" />
+        <ActionBtn myLink={site} text="Live website" />
       </Card.Body>
     </Card>
   );
