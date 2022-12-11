@@ -1,7 +1,7 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import ProjectThumbnail from "./ProjectThumbnail";
+import ProjectThumbnail from "../ProjectThumbnail";
 
 const Projects = ({ projects }) => {
   return (

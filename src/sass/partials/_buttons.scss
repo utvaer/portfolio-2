@@ -1,18 +1,32 @@
+.btns {
+  display: flex;
+}
+
 .btn {
   cursor: pointer;
-  border: 1px solid $color--secondary;
+  background-color: $color--secondary;
+  color: $color--background;
   border-radius: 4px;
-  padding: 0.5rem 3rem;
+  padding: 0.5rem 2rem;
   text-align: center;
   display: block;
-  width: 90%;
+  width: 45%;
   margin: 0.5em auto;
   text-transform: uppercase;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   text-decoration: none;
-  color: #111;
   &:hover {
-    background-color: $color--secondary;
-    color: $color--background;
+    background-color: $color--background;
+    border: 1px solid $color--secondary;
+    color: #111;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .btns {
+    flex-direction: column;
+  }
+  .btn {
+    width: 100%;
   }
 }

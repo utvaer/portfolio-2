@@ -1,7 +1,7 @@
 import "./sass/styles.scss";
 import Projects from "./components/Projects";
 import { data } from "./constants/data";
-import { Container } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
 import Header from "./components/Header";
 import AboutSection from "./components/AboutSection";
 import Footer from "./components/Footer";
