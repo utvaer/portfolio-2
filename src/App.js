@@ -10,11 +10,11 @@ function App() {
   return (
     <div className="page-container">
       <div className="content-wrapper">
+        <Header size="1" title="Utv&aelig;r" classN="main-header" />
         <Container>
-          <Header size="1" title="Utv&aelig;r" />
-          <Header size="2" title="About me" />
+          <Header size="2" title="About me" classN="secondary-header" />
           <AboutSection />
-          <Header size="2" title="Portfolio" />
+          <Header size="2" title="Portfolio" classN="secondary-header" />
           <Projects projects={data} />
         </Container>
       </div>

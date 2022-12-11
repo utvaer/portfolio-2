@@ -18,10 +18,9 @@ $body-bg: $color--background;
 //typography
 $font-family-base: $font-body;
 $headings-font-family: $font-heading;
-$nav-link-font-size: 1.5rem;
 
 //cards
-$card-height: 40rem;
+$card-height: 35rem;
 
 @import "~bootstrap/scss/bootstrap";
 
@@ -29,7 +28,7 @@ $card-height: 40rem;
 
 @import "./partials/layout";
 @import "./partials/buttons";
-// @import "./partials/mainNav";
-// @import "./partials/cards";
-// @import "./partials/messages";
+@import "./partials/typography";
+@import "./partials/card";
+@import "./partials/footer";
 // @import "./partials/links";

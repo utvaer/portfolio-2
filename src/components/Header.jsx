@@ -1,8 +1,8 @@
 import React from "react";
 
-const Header = ({ size = "1", title }) => {
+const Header = ({ size = "1", title, classN }) => {
   const VariableHeading = `h${size}`;
-  return <VariableHeading>{title}</VariableHeading>;
+  return <VariableHeading className={classN}>{title}</VariableHeading>;
 };
 
 export default Header;
